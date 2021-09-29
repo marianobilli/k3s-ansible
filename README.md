@@ -56,5 +56,5 @@ ansible-playbook site.yml -i inventory/my-cluster/hosts.ini
 To get access to your **Kubernetes** cluster just
 
 ```bash
-scp debian@master_ip:~/.kube/config ~/.kube/config
+scp pi@192.168.0.38:~/.kube/config ~/.kube/config
 ```
