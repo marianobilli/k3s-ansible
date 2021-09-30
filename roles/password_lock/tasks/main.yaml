@@ -1,0 +1,5 @@
+
+- name: disable password for default user
+  user:
+    name: pi
+    password_lock: yes
