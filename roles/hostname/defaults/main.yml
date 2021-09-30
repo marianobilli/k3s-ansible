@@ -2,6 +2,15 @@
 ---
 hostname_hostname: "{{ inventory_hostname }}"
 hostname_hostname_short: "{{ inventory_hostname_short }}"
-hostname_additional_hosts: []
+hostname_additional_hosts:
+  - ip_address: 192.168.0.38
+    hostname:   rpi-master-1
+  - ip_address: 192.168.0.40
+    hostname:   rpi-node-1
+  - ip_address: 192.168.0.108
+    hostname:   rpi-node-2
+  - ip_address: 192.168.0.200
+    hostname:   rpi-node-3
+
 hostname_hostname_use_full: false
 hostname_hostname_ip_address: '127.0.1.1'
